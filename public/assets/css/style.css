@@ -1,38 +1,31 @@
-/******************************************************************
-  
-******************************************************************/
-
-/*------------------------------------------------------------------
+/*****************************************************************
+******************************************************************
 [Table of contents]
-
-1.  Template default CSS
-	1.1	Variables
-	1.2	Mixins
-	1.3	Flexbox
-	1.4	Reset
-2.  Helper Css
-3.  Header Section
-4.  Categories Section
-5.  Product Section
-6.  Banner Section
-7.  Countdown Section
-8.  Instagram
-9.  Contact
+ 1.  Template default CSS
+		1.1	Variables
+		1.2	Mixins
+		1.3	Flexbox
+		1.4	Reset
+ 2.  Helper Css
+ 3.  Header Section
+ 4.  Categories Section
+ 5.  Product Section
+ 6.  Banner Section
+ 7.  Countdown Section
+ 8.  Instagram
+ 9.  Contact
 10.  Footer Style
--------------------------------------------------------------------*/
+------------------------------------------------------------------*/
 
 /*----------------------------------------*/
-
 /* Template default CSS
 /*----------------------------------------*/
-
 html,
 body {
 	height: 100%;
 	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
-
 h1,
 h2,
 h3,
@@ -307,8 +300,8 @@ ol {
 	justify-content: center;
 }
 
-/*---------------------
-  			Header
+/*-----------------------
+  		Header
 -----------------------*/
 
 .header {
@@ -318,23 +311,25 @@ ol {
 }
 
 .header__logo {
-	padding: 26px 0;
+	padding: 20px 0 10px;
+	position: center;
 }
 
 .header__logo a {
 	display: inline-block;
-	padding-left: 20px;
+	padding-left: 20px 0 1;
 }
 
 .header__menu {
-	padding: 30px 0 27px;
+	padding:  30px 0 10px;
 }
 
 .header__menu ul li {
 	list-style: none;
 	display: inline-block;
-	margin-right: 40px;
 	position: relative;
+	padding-left: 24px;
+	padding-right: 15px;
 }
 
 .header__menu ul li.active a:after {
@@ -419,8 +414,8 @@ ol {
 }
 
 .header__right {
-	text-align: right;
-	padding: 30px 0 27px;
+	text-align: center;
+	padding: 30px 0 35px;
 }
 
 .header__right__auth {
@@ -857,7 +852,7 @@ ol {
 }
 
 .footer__logo {
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 .footer__payment a {
@@ -899,7 +894,8 @@ ol {
 	color: #111111;
 	font-weight: 600;
 	text-transform: uppercase;
-	margin-bottom: 25px;
+	padding-left: 15px;
+	margin-bottom: 15px;
 }
 
 .footer__newslatter form {
@@ -1084,15 +1080,7 @@ ol {
 	display: inline-block;
 }
 
-.categories__text a:after {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 2px;
-	width: 100%;
-	background: #ca1515;
-	content: "";
-}
+
 
 /*---------------------
   Product
