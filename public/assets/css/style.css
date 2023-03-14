@@ -15,7 +15,7 @@
  8.  Instagram
  9.  Contact
 10.  Footer Style
-------------------------------------------------------------------*/
+-----------------------------------------------------------------*/
 
 /*----------------------------------------*/
 /* Template default CSS
@@ -311,17 +311,28 @@ ol {
 }
 
 .header__logo {
+	display: inline-block;
 	padding: 20px 0 10px;
 	position: center;
 }
 
+.header__logo img{
+	display: inline-block;
+	padding-left: 10px;
+	max-width: 50%;
+
+}
+
 .header__logo a {
 	display: inline-block;
-	padding-left: 20px 0 1;
+	padding-left: 15px;
+	width: 300px;
+	height: 63px;
 }
 
 .header__menu {
-	padding:  30px 0 10px;
+	display: block;
+	padding:  35px 0 10px;
 }
 
 .header__menu ul li {
@@ -414,13 +425,15 @@ ol {
 }
 
 .header__right {
+	display: inline-block;
 	text-align: center;
-	padding: 30px 0 35px;
+	padding-top: 32px;
+	padding-left: 130px;
+	gap: 10px;
 }
 
 .header__right__auth {
 	display: inline-block;
-	margin-right: 25px;
 }
 
 .header__right__auth a {
@@ -431,7 +444,8 @@ ol {
 }
 
 .header__right__auth a:last-child {
-	margin-right: 0;
+	display: inline-block;
+	padding-left: 10px;
 }
 
 .header__right__auth a:last-child:after {
@@ -448,6 +462,7 @@ ol {
 
 .header__right__widget {
 	display: inline-block;
+	padding-left: 14px;
 }
 
 .header__right__widget li {
@@ -771,7 +786,7 @@ ol {
 }
 
 /*---------------------
-  Instagram
+  		Instagram
 -----------------------*/
 
 .instagram__item {
@@ -1017,7 +1032,7 @@ ol {
 }
 
 /*---------------------
-  Categories
+     Categories
 -----------------------*/
 
 .categories {
@@ -1039,12 +1054,13 @@ ol {
 	align-items: center;
 	padding-left: 30px;
 	margin-bottom: 10px;
-	margin-right: 10px;
+	margin-left: 15px;
+	margin-right: 22px;
 }
 
 .categories__item.categories__large__item {
 	height: 638px;
-	padding-left: 70px;
+	margin-left: 15px;
 }
 
 .categories__item.categories__large__item .categories__text {
@@ -1056,14 +1072,20 @@ ol {
 }
 
 .categories__text h1 {
+	align-items: center;
+	font-size: 700;
 	font-family: "Cookie", cursive;
-	color: #111111;
+	color: white;
 	margin-bottom: 5px;
+
 }
 
 .categories__text h4 {
-	color: #111111;
+	align-items: center;
 	font-weight: 700;
+	color: white;
+	margin-bottom: 5px;
+	margin-left: 50px;
 }
 
 .categories__text p {
@@ -1079,8 +1101,6 @@ ol {
 	padding: 0 0 3px;
 	display: inline-block;
 }
-
-
 
 /*---------------------
   Product

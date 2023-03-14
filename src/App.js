@@ -25,7 +25,6 @@ function App() {
             <div id="mobile-menu-wrap"></div>
             <div class="offcanvas__auth">
               <a href="#">Login</a>
-              <a href="#">Register</a>
             </div>
             </div>
 
@@ -41,9 +40,7 @@ function App() {
               <nav class="header__menu">
             <ul>
               <li><a href="#">OFERTAS</a></li>
-              <li><a href="#">NOVIDADES</a></li>
               <li><a href="#">ROUPAS</a></li>
-              <li><a href="#">VESTIDOS</a></li>
               <li><a href="#">CONTATO</a></li>
               <li><a href="#">SOBRE</a></li>
             </ul>
@@ -134,7 +131,7 @@ function App() {
             <div class="col-lg-3 col-md-4 col-sm-6 mix">
             <div class="product__item">
             <div class="product__item__pic set-bg" data-setbg="assets/img/product/product-1.jpg">
-            <div class="label new">New</div>
+            <div class="label new">NOVO</div>
             <ul class="product__hover">
               <li><a href="assets/img/product/product-1.jpg" class="image-popup"><span class="arrow_expand"></span></a></li>
               <li><a href="#"><span class="icon_heart_alt"></span></a></li>
@@ -142,7 +139,7 @@ function App() {
             </ul>
             </div>
             <div class="product__item__text">
-              <h6><a href="#">Buttons tweed blazer</a></h6>
+              <h6><a href="#">Camisa Gola Alta</a></h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -150,7 +147,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 59.99</div>
             </div>
             </div>
             </div>
@@ -164,7 +161,7 @@ function App() {
             </ul>
             </div>
             <div class="product__item__text">
-            <h6><a href="#">Flowy striped skirt</a></h6>
+            <h6><a href="#">Camisa Masculina confort</a></h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -172,14 +169,13 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 49.0</div>
+            <div class="product__price">R$ 85.99</div>
             </div>
             </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mix">
             <div class="product__item">
             <div class="product__item__pic set-bg" data-setbg="assets/img/product/product-3.jpg">
-            <div class="label stockout">out of stock</div>
             <ul class="product__hover">
               <li><a href="assets/img/product/product-3.jpg" class="image-popup"><span class="arrow_expand"></span></a></li>
               <li><a href="#"><span class="icon_heart_alt"></span></a></li>
@@ -187,7 +183,7 @@ function App() {
             </ul>
             </div>
             <div class="product__item__text">
-              <h6><a href="#">Cotton T-Shirt</a></h6>
+              <h6><a href="#">Vestido manga Curta</a></h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -195,7 +191,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 39.99</div>
             </div>
             </div>
             </div>
@@ -209,7 +205,7 @@ function App() {
             </ul>
             </div>
             <div class="product__item__text">
-              <h6><a href="#">Slim striped pocket shirt</a></h6>
+              <h6><a href="#">Camisa Listrada</a></h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -217,7 +213,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 39.99</div>
             </div>
             </div>
             </div>
@@ -231,7 +227,7 @@ function App() {
               </ul>
             </div>
             <div class="product__item__text">
-              <h6><a href="#">Fit micro corduroy shirt</a></h6>
+              <h6><a href="#">Camisa Listrada</a></h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -239,14 +235,14 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 39.99</div>
             </div>
             </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mix women men kid accessories cosmetic">
             <div class="product__item sale">
             <div class="product__item__pic set-bg" data-setbg="assets/img/product/product-6.jpg">
-            <div class="label sale">Sale</div>
+            <div class="label sale">Esgotado</div>
             <ul class="product__hover">
               <li><a href="assets/img/product/product-6.jpg" class="image-popup"><span class="arrow_expand"></span></a></li>
               <li><a href="#"><span class="icon_heart_alt"></span></a></li>
@@ -254,7 +250,7 @@ function App() {
             </ul>
             </div>
             <div class="product__item__text">
-              <h6><a href="#">Tropical Kimono</a></h6>
+              <h6><a href="#">Camisa bege Estampada</a></h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -262,7 +258,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 49.0 <span>$ 59.0</span></div>
+            <div class="product__price">R$ 49.0 <span>R$ 59.0</span></div>
             </div>
             </div>
             </div>
@@ -276,7 +272,7 @@ function App() {
             </ul>
             </div>
             <div class="product__item__text">
-              <h6><a href="#">Contrasting sunglasses</a></h6>
+              <h6><a href="#">Blusa em Seda</a></h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -284,14 +280,14 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 59.0</div>
             </div>
             </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mix women men kid accessories cosmetic">
             <div class="product__item sale">
             <div class="product__item__pic set-bg" data-setbg="assets/img/product/product-8.jpg">
-            <div class="label">Sale</div>
+            <div class="label">ESGOTADO</div>
             <ul class="product__hover">
               <li><a href="assets/img/product/product-8.jpg" class="image-popup"><span class="arrow_expand"></span></a></li>
               <li><a href="#"><span class="icon_heart_alt"></span></a></li>
@@ -299,7 +295,7 @@ function App() {
             </ul>
             </div>
             <div class="product__item__text">
-              <h6><a href="#">Water resistant backpack</a></h6>
+              <h6><a href="#">Camisa Miami</a></h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -307,7 +303,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 49.0 <span>$ 59.0</span></div>
+            <div class="product__price">R$ 49.0 <span>R$ 59.0</span></div>
             </div>
             </div>
             </div>
@@ -359,7 +355,7 @@ function App() {
             <img src="assets/img/trend/ht-1.jpg" alt="" />
             </div>
             <div class="trend__item__text">
-              <h6>Chain bucket bag</h6>
+              <h6>Carteira Feminina</h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -367,7 +363,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 49,99</div>
             </div>
             </div>
             <div class="trend__item">
@@ -375,7 +371,7 @@ function App() {
               <img src="assets/img/trend/ht-2.jpg" alt="" />
             </div>
             <div class="trend__item__text">
-              <h6>Pendant earrings</h6>
+              <h6>Brinco Triângulo</h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -383,7 +379,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 59,99</div>
             </div>
             </div>
             <div class="trend__item">
@@ -391,7 +387,7 @@ function App() {
               <img src="assets/img/trend/ht-3.jpg" alt="" />
             </div>
             <div class="trend__item__text">
-              <h6>Cotton T-Shirt</h6>
+              <h6>Suéter Feminino</h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -399,7 +395,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 59,99</div>
             </div>
             </div>
             </div>
@@ -414,7 +410,7 @@ function App() {
             <img src="assets/img/trend/bs-1.jpg" alt="" />
             </div>
             <div class="trend__item__text">
-              <h6>Cotton T-Shirt</h6>
+              <h6>Calça Jeans Preta</h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -422,7 +418,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 97,99</div>
             </div>
             </div>
             <div class="trend__item">
@@ -430,7 +426,7 @@ function App() {
               <img src="assets/img/trend/bs-2.jpg" alt="" />
             </div>
             <div class="trend__item__text">
-              <h6>Zip-pockets pebbled tote <br />briefcase</h6>
+              <h6>Bolsa<br />Para viagens</h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -438,7 +434,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 159,99</div>
             </div>
             </div>
             <div class="trend__item">
@@ -446,7 +442,7 @@ function App() {
               <img src="assets/img/trend/bs-3.jpg" alt="" />
             </div>
             <div class="trend__item__text">
-              <h6>Round leather bag</h6>
+              <h6>Bolsa circular</h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -454,7 +450,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 59,99</div>
             </div>
             </div>
             </div>
@@ -469,7 +465,7 @@ function App() {
             <img src="assets/img/trend/f-1.jpg" alt="" />
             </div>
             <div class="trend__item__text">
-              <h6>Bow wrap skirt</h6>
+              <h6>Saia Capri Linho Menta</h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -477,7 +473,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">$ 59,99</div>
             </div>
             </div>
             <div class="trend__item">
@@ -485,7 +481,7 @@ function App() {
               <img src="assets/img/trend/f-2.jpg" alt="" />
             </div>
             <div class="trend__item__text">
-             <h6>Metallic earrings</h6>
+             <h6>Brinco de Conchas</h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -493,7 +489,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 59,99</div>
             </div>
             </div>
             <div class="trend__item">
@@ -501,7 +497,7 @@ function App() {
               <img src="assets/img/trend/f-3.jpg" alt="" />
             </div>
             <div class="trend__item__text">
-              <h6>Flap cross-body bag</h6>
+              <h6>Bolsa com alça Amarela</h6>
             <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
@@ -509,7 +505,7 @@ function App() {
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
             </div>
-            <div class="product__price">$ 59.0</div>
+            <div class="product__price">R$ 59,99</div>
             </div>
             </div>
             </div>
