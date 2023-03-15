@@ -855,25 +855,33 @@ ol {
 -----------------------*/
 
 .footer {
-	padding-top: 55px;
+	padding-top: 30px;
 }
 
 .footer__about {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .footer__about p {
-	margin-bottom: 20px;
+	margin-bottom: 17px;
+	padding-left: 15px;
+	font-size: 15px;
 }
 
 .footer__logo {
 	margin-bottom: 5px;
+	max-width: 60%;
+	padding-left: 15px;
 }
 
 .footer__payment a {
 	margin-right: 6px;
 	margin-bottom: 10px;
 	display: inline-block;
+}
+
+.footer__payment img{
+	margin-left: 10px;
 }
 
 .footer__payment a:last-child {
@@ -964,6 +972,7 @@ ol {
 	line-height: 40px;
 	text-align: center;
 	border-radius: 50%;
+	margin-left: 15px;
 	margin-right: 6px;
 	margin-bottom: 5px;
 }
@@ -976,11 +985,10 @@ ol {
 	border-top: 1px solid #e1e1e1;
 	padding: 18px 0 25px;
 	text-align: center;
-	margin-top: 35px;
 }
 
 .footer__copyright__text p {
-	margin-bottom: 0;
+	font-size: 17px;
 }
 
 .footer__copyright__text a {
@@ -1075,7 +1083,7 @@ ol {
 	align-items: center;
 	font-size: 700;
 	font-family: "Cookie", cursive;
-	color: white;
+	color: #111111;
 	margin-bottom: 5px;
 
 }
@@ -1083,7 +1091,7 @@ ol {
 .categories__text h4 {
 	align-items: center;
 	font-weight: 700;
-	color: white;
+	color: #111111;
 	margin-bottom: 5px;
 	margin-left: 50px;
 }
@@ -1103,7 +1111,7 @@ ol {
 }
 
 /*---------------------
-  Product
+        Product
 -----------------------*/
 
 .product {
