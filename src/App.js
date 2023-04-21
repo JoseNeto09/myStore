@@ -13,10 +13,10 @@ function App() {
               <ul class="offcanvas__widget">
               <li><span class="icon_search search-switch"></span></li>
               <li><a href="#"><span class="icon_heart_alt"></span>
-              <div class="tip">2</div>
+              <div class="tip">0</div>
               </a></li>
               <li><a href="#"><span class="icon_bag_alt"></span>
-              <div class="tip">2</div>
+              <div class="tip">0</div>
               </a></li>
               </ul>
             <div class="offcanvas__logo">
@@ -25,6 +25,9 @@ function App() {
             <div id="mobile-menu-wrap"></div>
             <div class="offcanvas__auth">
               <a href="#">Login</a>
+            </div>
+            <div class="offcanvas__auth">
+              <a href="#">Cadastrar</a>
             </div>
             </div>
 
@@ -40,9 +43,11 @@ function App() {
               <nav class="header__menu">
             <ul>
               <li><a href="#">OFERTAS</a></li>
-              <li><a href="#">ROUPAS</a></li>
+              <li><a href="#">VESTIDOS</a></li>
+              <li><a href="#">NOVIDADES</a></li>
               <li><a href="#">CONTATO</a></li>
               <li><a href="#">SOBRE</a></li>
+              <li><a href="#">SUPORTE</a></li>
             </ul>
             </nav>
             </div>
@@ -51,13 +56,16 @@ function App() {
             <div class="header__right__auth">
               <a href="#">Login</a>
             </div>
+            <div class="header__right__auth">
+              <a href="#">Cadastrar</a>
+            </div>
             <ul class="header__right__widget">
               <li><span class="icon_search search-switch"></span></li>
               <li><a href="#"><span class="icon_heart_alt"></span>
-              <div class="tip">2</div>
+              <div class="tip">0</div>
               </a></li>
               <li><a href="#"><span class="icon_bag_alt"></span>
-              <div class="tip">2</div>
+              <div class="tip">0</div>
               </a></li>
             </ul>
             </div>
