@@ -45,13 +45,11 @@ function App() {
               <li><a href="#">OFERTAS</a></li>
               <li><a href="#">VESTIDOS</a></li>
               <li><a href="#">NOVIDADES</a></li>
-              <li><a href="#">CONTATO</a></li>
               <li><a href="#">SOBRE</a></li>
-              <li><a href="#">SUPORTE</a></li>
             </ul>
             </nav>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
             <div class="header__right">
             <div class="header__right__auth">
               <a href="#">Login</a>
